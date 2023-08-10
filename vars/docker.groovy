@@ -1,5 +1,5 @@
 def call() {
-  node('docker-jenkins agent') {
+  node('workstation') {
 
     stage('Code Checkout') {
 
