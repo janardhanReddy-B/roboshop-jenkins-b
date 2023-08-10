@@ -14,8 +14,6 @@ def call() {
 
     }
 
-
-
     stage('Publish a Artifact') {
       sh 'docker build -t ${component} .'
       sh 'docker tag ${component}:latest 637261222008.dkr.ecr.us-east-1.amazonaws.com/${component}:${TAG_NAME}'
