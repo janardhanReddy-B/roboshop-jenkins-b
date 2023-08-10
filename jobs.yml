@@ -7,6 +7,7 @@
       - roboshop-ansible-b
       - roboshop-helm-chart
       - init-container
+      - schema-load-init-container
     mp_jobs:
       - cart
       - catalogue
