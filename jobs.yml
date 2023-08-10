@@ -6,6 +6,7 @@
       - roboshop-terraform
       - roboshop-ansible-b
       - roboshop-helm-chart
+      - init-container
     mp_jobs:
       - cart
       - catalogue
